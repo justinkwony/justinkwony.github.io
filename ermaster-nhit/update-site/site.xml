@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="ERMaster-NHIT Update Site" url="http://www.nonghyupit.com/opensw/ermaser-nhit/update-site">
+      update-site for ERMaster-NHIT
+   </description>
+   <feature url="features/org.insightech.er.feature_1.0.0.v20140406-0914-nhit-20140415.jar" id="org.insightech.er.feature" version="1.0.0.v20140406-0914-nhit-20140415">
+      <category name="ermaster"/>
+   </feature>
+   <category-def name="ermaster" label="ERMaster-NHIT"/>
+</site>
