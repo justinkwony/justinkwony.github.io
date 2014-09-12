@@ -28,36 +28,50 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="ERMaster-NHIT" class="anchor" href="#ERMaster-NHIT"><span class="octicon octicon-link"></span></a>ERMaster-NHIT</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>(2014.04.15)<br>
+농협정보시스템에서 Open Source ERD도구인 ERMaster를 한글화 및 국산DBMS(Tibero, CUBRID) 지원 기능 추가하여 Github를 통해 공개합니다.
+</p>
+<p>
+* 변경사항<br>
+Table 편집시 인덱스 컬럼 중복 생성됨 수정<br>
+Table Edit Dialog에서 Index Tab의 구분자를 일련번호에서 인덱스명으로 변경<br>
+Outline window에서 Index Node의 인덱스 수정시 Table Node의 Table/Index 반영 안됨 수정
+</p>
+<p>
+* Known Bugs/Issues<br>
+Tibero<br>
+- 발견하시면 Report해주세요. justinkwony@gmail.com<br>
+CUBRID<br>
+- Schema 개념 없음<br>
+- Context Menu/가져오기/데이터베이스 : Auto Increment Column의 Seed, Increment 값을 가져오지 못함<br>
+- Context Menu/가져오기/데이터베이스 : Trigger Source(SQL) 가져오지 못함(소스 보는 방법 아시는 분 알려주세요)
+</p>
+<p>
+The purpose of this site is to distribute ERMaster, includes Korean and Tibero,  CUBRID Database support.
+</p>
+<p>
+ERMaster is ER-Diagram editor(Eclipse Plug-in). ER-Win alternative.
+</p>
+<p>
+<table>
+<tr><td><u>Korean version</u></td>
+<tr><td>Eclipse Plug-in Update site :</td><td>http://justinkwony.github.io/ermaster-nhit/update-site/</td></tr>
+<tr><td>Download zip :</td><td> <a href='../ermaster-nhit-20140415.zip'>ermaster-nhit-20140415.zip</a></td></tr>
+</table>
+<table>
+<tr><td>Original site</td></tr>
+<tr><td>URL :</td><td> http://ermaster.sourceforge.net , http://sourceforge.net/project/ermaster</td></tr>
+<tr><td>Eclipse Plug-in Update site :</td><td> http://ermaster.sourceforge.net/update-site -> http://sourceforge.net/project/ermaster/files/ermaster</td></tr>
+</table>
+</p>
+<p>
+<u>Install</u><br>
+Eclipse Menu -> Help -> Install New Software... -> Work with : [type Update_site_url or select zip_file]<br>
+or extract zip_file to eclipse directory.
+</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
     </div>
 
@@ -67,8 +81,5 @@ $ git checkout gh-pages
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-    
-
   </body>
 </html>
