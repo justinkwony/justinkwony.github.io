@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="ERMaster-NHIT Update Site" url="http://justinkwony.github.io/ermaser-nhit/update-site">
-      update-site for ERMaster-NHIT
+   <description name="ERMaster-NHIT" url="http://justinkwony.github.io/ermaster-nhit/update-site">
+      update-site at github.io
    </description>
-   <feature url="features/org.insightech.er.feature_1.0.0.v20140406-0914-nhit-20140415.jar" id="org.insightech.er.feature" version="1.0.0.v20140406-0914-nhit-20140415">
+   <feature url="features/org.insightech.er.feature_1.0.0.v20150619-0219.jar" id="org.insightech.er.feature" version="1.0.0.v20150619-0219">
       <category name="ermaster"/>
    </feature>
    <category-def name="ermaster" label="ERMaster-NHIT"/>
