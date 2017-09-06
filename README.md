@@ -1,3 +1,5 @@
+* 수정중입니다 * update site가 작동하지 않습니다.
+
 justinkwony.github.io
 =====================
 (2019.09.06)
@@ -6,7 +8,7 @@ justinkwony.github.io
 Tibero, CUBRID 지원과 한글 테이블정의서(xls) 포함되었습니다.
 http://justinkwony.github.io<br>
 
-=
+======================
 
 Add Eclipse Update site for ERMaster-NHIT
 
